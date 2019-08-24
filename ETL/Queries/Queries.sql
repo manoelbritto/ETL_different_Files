@@ -1,4 +1,3 @@
-
 select c.name,
 	   c.country,
 	   rg.year,

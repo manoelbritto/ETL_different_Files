@@ -47,3 +47,22 @@ select * from TempRegisterCrime;
 
 insert into registercrime (id_crime,id_city,day,month,year,latitude,longitude) 
 select crimestype.id, city.id,tempregistercrime.day,tempregistercrime.month,tempregistercrime.year,tempregistercrime.latitude,tempregistercrime.longitude from tempregistercrime inner join crimestype on tempregistercrime.type = crimestype.type inner join city on city.name = tempregistercrime.city;  
+
+select c.name,
+	   c.country,
+	   rg.year,
+	   cr.type,
+	   count(cr.type)
+from city c
+inner join registercrime rg
+on c.id = rg.id_city
+inner join crimestype cr
+on rg.id_crime = cr.id
+group by c.name,
+	   c.country,
+	   rg.year,
+	   cr.type
+order by rg.year
+
+
+

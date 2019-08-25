@@ -117,8 +117,8 @@ Python with libraries:
 
 
 ### Team project: 
-	Manoel,
-	Mir,
-	Banafshe
+1. Manoel
+1. Mir
+1. Banafshe
 
 

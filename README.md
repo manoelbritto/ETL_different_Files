@@ -12,19 +12,22 @@ This project analyzes crimes in cities in America that have almost the same Toro
 ### Extract
 The data sets were extracted from different sources, for instance:
 
-*Wikipedia:*  This was a source where we found Toronto census from 2001 to 2016
+*Wikipedia:* 
+This was a source where we found Toronto census from 2001 to 2016
 
-https://en.wikipedia.org/wiki/Demographics_of_Toronto#cite_note-2011censuspop-18
+> https://en.wikipedia.org/wiki/Demographics_of_Toronto#cite_note-2011censuspop-18
 
-*CSV:* Two CSV files were downloaded from these links that track crime from Chicago (USA) and Vancouver (Canada) cities:
+*CSV:* 
+Two CSV files were downloaded from these links that track crime from Chicago (USA) and Vancouver (Canada) cities:
 
-https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data
+> https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2/data
 
-https://data.vancouver.ca/datacatalogue/crime-data.htm
+> https://data.vancouver.ca/datacatalogue/crime-data.htm
 
-*API returns JSON:* This an API created by me (Manoel) which can be viewed with more detail here. Moreover, this API returns some main crimes in Toronto from 2004 to 2018
+*API returns JSON:* 
+This an API created by me (Manoel) which can be viewed with more detail [here](https://github.com/manoelbritto/ETL_API). Moreover, this API returns some main crimes in Toronto from 2004 to 2018
 
-http://manoelburgos.azurewebsites.net/api/Crimes
+> http://manoelburgos.azurewebsites.net/api/Crimes
 
 ### Transform
 
@@ -42,9 +45,10 @@ We iterate with the necessary keys to insert into database. Moreover, the key ca
 
 
 **CSV -> Database**
+
 The number of lines of each CSV has more than 200k rows.
  
-![GitHub Logo](/images/csv.png)
+![GitHub Logo](/images/csv.jpg)
 
 
 ### Load

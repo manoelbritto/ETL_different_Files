@@ -57,11 +57,11 @@ At the beginning of this project, I designed this ERD below to retrieve our data
 
 It was designed to follow the 1st,2nd,3rd normal forms. 
 
-![GitHub Logo](/ERD/'Entity Relationship Diagram1'.jpg)
+![GitHub Logo](/ERD/Entity%20Relationship%20Diagram1.jpg)
 
 ### Results
 Based on the results loaded in our database, we can do some analysis, for instance, discover how many crimes happened in a specific year in each city.
-Below is a sample, however, it is possible to see more queries here:
+Below is a sample, however, it is possible to see more queries [here](https://github.com/manoelbritto/ETL_different_Files/tree/master/ETL/Queries):
 ```
 select c.name,
 	   c.country,
@@ -79,13 +79,18 @@ group by c.name,
 	   cr.type
 order by rg.year
 ```
-Chicago:
+**Chicago:**
+
+![GitHub Logo](/images/chicago_result.jpg)
  
 
-Toronto:
+**Toronto:**
  
+![GitHub Logo](/images/toronto_result.png)
 
-Vancouver:
+**Vancouver:**
+
+![GitHub Logo](/images/vancouver_result.png)
 
  
 ```
@@ -96,7 +101,9 @@ select (select name
 from census c;
 
 ```
- 
+
+![GitHub Logo](/images/census.png)
+
 
 ## Features:
 

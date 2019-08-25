@@ -1,4 +1,4 @@
-# Project name: ETL for different sources and files
+## Project name: ETL for different sources and files
 
 ## Project Proposal
 
@@ -107,13 +107,13 @@ from census c;
 
 ## Features:
 
-PostgreSQL database
-ERD designed in Visual Paradigm
-Python with libraries:
-	Pandas,
-	Sqlalchemy
-	Json, 
-	Requests
+- PostgreSQL database
+- ERD designed in Visual Paradigm
+- Python with libraries:
+	- Pandas
+	- Sqlalchemy
+	- Json
+	- Requests
 
 
 ### Team project: 

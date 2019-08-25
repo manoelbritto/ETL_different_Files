@@ -9,7 +9,7 @@ This project analyzes crimes in cities in America that have almost the same Toro
 ![GitHub Logo](/images/workflow.png)
  
 
-### Extract
+## Extract
 The data sets were extracted from different sources, for instance:
 
 *Wikipedia:* 
@@ -29,7 +29,7 @@ This an API created by me (Manoel) which can be viewed with more detail [here](h
 
 > http://manoelburgos.azurewebsites.net/api/Crimes
 
-### Transform
+## Transform
 
 **HTML -> Database**
 
@@ -51,10 +51,13 @@ The number of lines of each CSV has more than 200k rows.
 ![GitHub Logo](/images/csv.jpg)
 
 
-### Load
+## Load
+
 At the beginning of this project, I designed this ERD below to retrieve our data set.
+
 It was designed to follow the 1st,2nd,3rd normal forms. 
- 
+
+![GitHub Logo](/ERD/'Entity Relationship Diagram1'.jpg)
 
 ### Results
 Based on the results loaded in our database, we can do some analysis, for instance, discover how many crimes happened in a specific year in each city.

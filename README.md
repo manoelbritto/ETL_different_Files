@@ -2,7 +2,7 @@
 
 ## Project Proposal
 
-This project analyzes crimes in cities in America that have almost the same Toronto’s population. In this case, we chose some data set from Toronto, Vancouver, and Chicago.
+This project analyzes crimes in America cities that have almost the same Toronto’s population. In this case, Toronto, Vancouver, and Chicago.
 
 ## Workflow
 

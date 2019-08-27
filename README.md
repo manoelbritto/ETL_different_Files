@@ -1,4 +1,4 @@
-## Project name: ETL for different sources and files
+## Project name: Track crimes in Toronto, Vancouver, and Chicago
 
 ## Project Proposal
 

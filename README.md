@@ -13,7 +13,7 @@ This project analyzes crimes in America cities that have almost the same Toronto
 The data sets were extracted from different sources, for instance:
 
 *Wikipedia:* 
-This was a source where we found Toronto census from 2001 to 2016
+This was a source where I found Toronto data census between 2001 and 2016
 
 > https://en.wikipedia.org/wiki/Demographics_of_Toronto#cite_note-2011censuspop-18
 
@@ -25,7 +25,7 @@ Two CSV files were downloaded from these links that track crime from Chicago (US
 > https://data.vancouver.ca/datacatalogue/crime-data.htm
 
 *API returns JSON:* 
-This an API created by me (Manoel) which can be viewed with more detail [here](https://github.com/manoelbritto/ETL_API). Moreover, this API returns some main crimes in Toronto from 2004 to 2018
+This an API created by me (Manoel) which can be viewed with more detail [click here](https://github.com/manoelbritto/ETL_API). Moreover, this API returns some main crimes in Toronto from 2004 to 2018
 
 > http://manoelburgos.azurewebsites.net/api/Crimes
 
@@ -116,8 +116,8 @@ from census c;
 	- Requests
 
 
-### Team project: 
-1. Manoel
+### Team project UofT: 
+1. Manoel (Developer and Leader)
 1. Mir
 1. Banafshe
 
